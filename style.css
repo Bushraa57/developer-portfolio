@@ -32,3 +32,34 @@ section{
 body{
    margin: 0%;
 }
+.yearTitle{
+   color: yellow;
+}
+.experience{
+   display: flex;
+}
+.experience-item{
+   width: 50%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 10px;
+   
+   box-shadow: 10px 10px 40px gray;
+   border-radius: 10px;
+   
+  
+}
+#web-dev1{
+   border-left:7px solid;
+   border-image: linear-gradient(red,orange);
+   border-image-slice: 1;
+}
+#web-dev2{
+   border-left:7px solid;
+   border-image: linear-gradient(blue,cyan);
+   border-image-slice: 1;
+
+}
+footer p{
+   text-align: center;
+}
