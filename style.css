@@ -6,13 +6,10 @@ margin: 0;
 h1{
    font-size: 50px;
 }
-#name-clr{
+.orange-clr{
    color: rgba(255, 166, 0, 0.913);
 }
-section{
-   display: flex;
-   margin-bottom:150px ;
-}
+
 .half-width{
 width: 50%;
 padding-left: 2%;
@@ -38,3 +35,44 @@ background-repeat: no-repeat;
    background-repeat: no-repeat;
    background-position: right;
 }
+.flexible-container{
+   display: flex;
+  
+}
+section{
+   margin-bottom: 150px;
+}
+.box-shadow{
+   box-shadow: 10px 10px 40px grey;
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 10px;
+
+}
+.experiences{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   
+}
+#full-dev{
+ border-left: 7px solid;
+ border-image: linear-gradient(orange,red);
+
+ border-image-slice: 1;
+}
+#baby-dev{
+   border-left: 7px solid;
+   border-image: linear-gradient(salmon,cyan);
+
+ border-image-slice: 1;
+
+
+}
+footer {
+   text-align: center;
+}
+
